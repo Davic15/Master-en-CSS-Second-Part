@@ -1,0 +1,84 @@
+/* 
+    BEM - Bloque Elemento Modificador.
+    Metodologia de trabajo.
+    Manera de nombrar las clases.
+    Se usa siempre clases y nunca id.
+    Clases para usar estilos.
+    id = para aplicar funcionalidades en JavaScript.
+    Ejemplo
+        .bloque__elemento--modificador
+
+        .bloque
+        .bloque__elemento
+        .bloque__elemento--modificador
+
+    1) No usar ID
+    2) No usar etiquetas
+    3) Que todo sea un key selector (Seleccionar justo elemento al cual se le van a aplicar los estilos).
+*/
+
+/* Forma Clasica */
+/*
+.cards {
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 20px gray;
+    border-radius: 5px;
+}
+*/
+/* Context */ /* Key Selector */
+/*
+.cards .card {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    margin: 5px;
+    background-color: lightblue;
+}
+
+.cards .card h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cards .card a {
+    padding: 10px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+}*/
+
+/* BEM */
+.cards {
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 20px gray;
+    border-radius: 5px;
+}
+
+/* clave / key selector*/
+.cards__card {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    margin: 5px;
+    background-color: lightblue;
+}
+
+.card__title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card__link {
+    padding: 10px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+}
+
+.card__link--red {
+    background-color: red;
+}

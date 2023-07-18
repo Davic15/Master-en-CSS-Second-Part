@@ -1,0 +1,25 @@
+/* Variables */
+/* 
+    Las variables se definen dentro de root 
+    root representa todo el html
+*/
+
+:root {
+    --color-principal: red;
+    --fuente: Verdana;
+    --fuente-size: 45px;
+}
+
+h1 {
+    font-size: var(--fuente-size);
+    color: var(--color-principal);
+    font-family: var(--fuente);
+}
+
+p {
+    font-family: var(--fuente);
+}
+
+h3 {
+    font-size: var(--fuente-size);
+}
