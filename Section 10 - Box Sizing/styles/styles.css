@@ -1,0 +1,28 @@
+/* 
+    box-sizing: border-box;
+    Se aplica el padding, no crece, pero se mantiene el tamano actual de la caja.
+
+    Medidas Absolutas
+    px, cm, pc
+
+    Medidas Relativas
+    em depende del font-size del elemento padre
+    rem depende del font-size del elemento raiz.
+    vh
+    vw
+    %
+*/
+.caja {
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    width: 300px;
+    height: 180px;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+    text-align: center;
+    background-color: cadetblue;
+    color: white;
+}
