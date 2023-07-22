@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Estilos -->
+        <link
+            rel="stylesheet"
+            href="./assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css"
+            type="text/css"
+        />
+        <link
+            rel="stylesheet"
+            href="./assets/fonts/poppins/poppins.css"
+            type="text/css"
+        />
+        <link rel="stylesheet" href="./assets/css/reset.css" type="text/css" />
+        <link rel="stylesheet" href="./assets/css/scroll.css" type="text/css" />
+        <link rel="stylesheet" href="./assets/css/styles.css" type="text/css" />
+        <title>Portfolio - Franklin Macias</title>
+    </head>
+    <body>
+        <!-- Layout Principal -->
+        <div class="layout">
+            <!-- Barra Lateral (Info del Usuario) -->
+            <aside class="layout__aside">
+                <section class="aside__user-info">
+                    <!-- Informacion General -->
+                    <div class="user-info__general">
+                        <div class="user-info__container-image">
+                            <img
+                                src="assets/img/default-user.jpg"
+                                alt="perfil de usuario"
+                                class="user-info__image"
+                            />
+                        </div>
+                        <h2 class="user-info__name">Franklin Macias</h2>
+                        <h4 class="user-info__job">Desarrollador web</h4>
+                    </div>
+
+                    <!-- Menu de navegacion -->
+                    <nav class="layout__menu">
+                        <ul class="menu__list">
+                            <li class="menu__option">
+                                <a href="index.html" class="menu__link">
+                                    <i class="menu__icon fa-solid fa-house"></i>
+                                    <span class="menu__overlay">Home</span>
+                                </a>
+                            </li>
+                            <li class="menu__option">
+                                <a href="sobre-mi.html" class="menu__link">
+                                    <i class="menu__icon fa-solid fa-user"></i>
+                                    <span class="menu__overlay">Sobre mi</span>
+                                </a>
+                            </li>
+                            <li class="menu__option">
+                                <a
+                                    href="curriculum.html"
+                                    class="menu__link menu__link--active"
+                                >
+                                    <i
+                                        class="menu__icon fa-solid fa-graduation-cap"
+                                    ></i>
+                                    <span class="menu__overlay"
+                                        >Curriculum</span
+                                    >
+                                </a>
+                            </li>
+                            <li class="menu__option">
+                                <a href="portafolio.html" class="menu__link">
+                                    <i
+                                        class="menu__icon fa-solid fa-briefcase"
+                                    ></i>
+                                    <span class="menu__overlay"
+                                        >Portafolio</span
+                                    >
+                                </a>
+                            </li>
+                            <li class="menu__option">
+                                <a href="blog.html" class="menu__link">
+                                    <i class="menu__icon fa-solid fa-book"></i>
+                                    <span class="menu__overlay">Blog</span>
+                                </a>
+                            </li>
+                            <li class="menu__option">
+                                <a href="contacto.html" class="menu__link">
+                                    <i
+                                        class="menu__icon fa-solid fa-envelope"
+                                    ></i>
+                                    <span class="menu__overlay">Contacto</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <!-- Links a redes sociales -->
+                    <div class="user-info__links">
+                        <ul class="links__social">
+                            <li class="social__option">
+                                <a href="#" class="social__link">
+                                    <i
+                                        class="social__icon fa-brands fa-youtube"
+                                    ></i>
+                                </a>
+                            </li>
+                            <li class="social__option">
+                                <a href="#" class="social__link">
+                                    <i
+                                        class="social__icon fa-brands fa-linkedin"
+                                    ></i>
+                                </a>
+                            </li>
+                            <li class="social__option">
+                                <a href="#" class="social__link">
+                                    <i
+                                        class="social__icon fa-brands fa-instagram"
+                                    ></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Boton Curriculum -->
+                    <div class="user-info__buttons">
+                        <a href="#" class="user-info__btn">Descargar CV</a>
+                    </div>
+
+                    <!-- Pie de Pgina -->
+                    <footer class="user-info__footer">
+                        &copy; 2023 Franklin Macias.
+                    </footer>
+                </section>
+            </aside>
+
+            <!-- Contenido Principal -->
+            <main class="layout__content">
+                <section class="content__page content__resume">
+                    <!-- Contenido que cambia en cada pagina -->
+                    <header class="resume__header">
+                        <h1 class="resume__title">Curriculum</h1>
+                    </header>
+
+                    <div class="resume__container">
+                        <section class="resume__left">
+                            <header class="resume__subheader">
+                                <h2 class="resume__subtitle">Formacion</h2>
+                            </header>
+
+                            <div class="resume__timelines">
+                                <article class="timelines__item">
+                                    <header class="timeline__header">
+                                        <h4 class="timeline__year">2010</h4>
+                                        <span class="timeline__company"
+                                            >Universidad de Madrid</span
+                                        >
+                                    </header>
+
+                                    <div class="timeline__divider"></div>
+
+                                    <div class="timeline__description">
+                                        <h3 class="timeline__title">
+                                            Desarrollo web
+                                        </h3>
+                                        <p class="timeline__description">
+                                            Lorem ipsum dolor sit, amet
+                                            consectetur adipisicing elit. Nemo
+                                            explicabo quo, fugit accusamus
+                                            libero sunt quidem consequatur nobis
+                                            quam accusantium nam quaerat
+                                            delectus blanditiis cupiditate.
+                                            Officiis tenetur aliquam ex
+                                            asperiores.
+                                        </p>
+                                    </div>
+                                </article>
+
+                                <article class="timelines__item">
+                                    <header class="timeline__header">
+                                        <h4 class="timeline__year">2008</h4>
+                                        <span class="timeline__company"
+                                            >Universidad de Turin</span
+                                        >
+                                    </header>
+
+                                    <div class="timeline__divider"></div>
+
+                                    <div class="timeline__description">
+                                        <h3 class="timeline__title">
+                                            Desarrollo backend
+                                        </h3>
+                                        <p class="timeline__description">
+                                            Lorem ipsum dolor sit, amet
+                                            consectetur adipisicing elit. Nemo
+                                            explicabo quo, fugit accusamus
+                                            libero sunt quidem consequatur nobis
+                                            quam accusantium nam quaerat
+                                            delectus blanditiis cupiditate.
+                                            Officiis tenetur aliquam ex
+                                            asperiores.
+                                        </p>
+                                    </div>
+                                </article>
+                            </div>
+
+                            <header class="resume__subheader">
+                                <h2 class="resume__subtitle">Experiencia</h2>
+                            </header>
+
+                            <div class="resume__timelines">
+                                <article class="timelines__item">
+                                    <header class="timeline__header">
+                                        <h4 class="timeline__year">
+                                            2015 - 2017
+                                        </h4>
+                                        <span class="timeline__company"
+                                            >Santa Martha</span
+                                        >
+                                    </header>
+
+                                    <div class="timeline__divider"></div>
+
+                                    <div class="timeline__description">
+                                        <h3 class="timeline__title">
+                                            Desarrollador web
+                                        </h3>
+                                        <p class="timeline__description">
+                                            Lorem ipsum dolor sit, amet
+                                            consectetur adipisicing elit. Nemo
+                                            explicabo quo, fugit accusamus
+                                            libero sunt quidem consequatur nobis
+                                            quam accusantium nam quaerat
+                                            delectus blanditiis cupiditate.
+                                            Officiis tenetur aliquam ex
+                                            asperiores.
+                                        </p>
+                                    </div>
+                                </article>
+
+                                <article class="timelines__item">
+                                    <header class="timeline__header">
+                                        <h4 class="timeline__year">
+                                            2017 - now
+                                        </h4>
+                                        <span class="timeline__company"
+                                            >Choco</span
+                                        >
+                                    </header>
+
+                                    <div class="timeline__divider"></div>
+
+                                    <div class="timeline__description">
+                                        <h3 class="timeline__title">
+                                            Desarrollador backend
+                                        </h3>
+                                        <p class="timeline__description">
+                                            Lorem ipsum dolor sit, amet
+                                            consectetur adipisicing elit. Nemo
+                                            explicabo quo, fugit accusamus
+                                            libero sunt quidem consequatur nobis
+                                            quam accusantium nam quaerat
+                                            delectus blanditiis cupiditate.
+                                            Officiis tenetur aliquam ex
+                                            asperiores.
+                                        </p>
+                                    </div>
+                                </article>
+
+                                <div class="resume__timelines">
+                                    <article class="timelines__item">
+                                        <header class="timeline__header">
+                                            <h4 class="timeline__year">2010</h4>
+                                            <span class="timeline__company"
+                                                >Universidad de Madrid</span
+                                            >
+                                        </header>
+
+                                        <div class="timeline__divider"></div>
+
+                                        <div class="timeline__description">
+                                            <h3 class="timeline__title">
+                                                Desarrollo web
+                                            </h3>
+                                            <p class="timeline__description">
+                                                Lorem ipsum dolor sit, amet
+                                                consectetur adipisicing elit.
+                                                Nemo explicabo quo, fugit
+                                                accusamus libero sunt quidem
+                                                consequatur nobis quam
+                                                accusantium nam quaerat delectus
+                                                blanditiis cupiditate. Officiis
+                                                tenetur aliquam ex asperiores.
+                                            </p>
+                                        </div>
+                                    </article>
+
+                                    <article class="timelines__item">
+                                        <header class="timeline__header">
+                                            <h4 class="timeline__year">
+                                                2015-2022
+                                            </h4>
+                                            <span class="timeline__company"
+                                                >FullStack Developer</span
+                                            >
+                                        </header>
+
+                                        <div class="timeline__divider"></div>
+
+                                        <div class="timeline__description">
+                                            <h3 class="timeline__title">
+                                                Desarrollo fullStack
+                                            </h3>
+                                            <p class="timeline__description">
+                                                Lorem ipsum dolor sit, amet
+                                                consectetur adipisicing elit.
+                                                Nemo explicabo quo, fugit
+                                                accusamus libero sunt quidem
+                                                consequatur nobis quam
+                                                accusantium nam quaerat delectus
+                                                blanditiis cupiditate. Officiis
+                                                tenetur aliquam ex asperiores.
+                                            </p>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="resume__right">
+                            <header class="resume__subheader">
+                                <h2 class="resume__subtitle">
+                                    Habilidades de diseño
+                                </h2>
+                            </header>
+
+                            <div class="resume__skills">
+                                <article class="skills__title">
+                                    <h4 class="skills__text">Diseno web</h4>
+                                    <span class="skills__number">90%</span>
+                                </article>
+                                <div class="skills__progressbar">
+                                    <div class="skills__percentage"></div>
+                                </div>
+
+                                <article class="skills__title">
+                                    <h4 class="skills__text">Diseno Mockup</h4>
+                                    <span class="skills__number">70%</span>
+                                </article>
+                                <div class="skills__progressbar">
+                                    <div class="skills__percentage"></div>
+                                </div>
+
+                                <article class="skills__title">
+                                    <h4 class="skills__text">
+                                        Diseno de logos
+                                    </h4>
+                                    <span class="skills__number">60%</span>
+                                </article>
+                                <div class="skills__progressbar">
+                                    <div class="skills__percentage"></div>
+                                </div>
+
+                                <article class="skills__title">
+                                    <h4 class="skills__text">Diseno banner</h4>
+                                    <span class="skills__number">80%</span>
+                                </article>
+                                <div class="skills__progressbar">
+                                    <div class="skills__percentage"></div>
+                                </div>
+                            </div>
+
+                            <header class="resume__subheader">
+                                <h2 class="resume__subtitle">
+                                    Habilidades de Codigo
+                                </h2>
+                            </header>
+
+                            <div class="resume__skills">
+                                <article class="skills__title">
+                                    <h4 class="skills__text">HTML/CSS</h4>
+                                    <span class="skills__number">97%</span>
+                                </article>
+                                <div class="skills__progressbar">
+                                    <div class="skills__percentage"></div>
+                                </div>
+
+                                <article class="skills__title">
+                                    <h4 class="skills__text">JavaScript</h4>
+                                    <span class="skills__number">85%</span>
+                                </article>
+                                <div class="skills__progressbar">
+                                    <div class="skills__percentage"></div>
+                                </div>
+
+                                <article class="skills__title">
+                                    <h4 class="skills__text">React</h4>
+                                    <span class="skills__number">80%</span>
+                                </article>
+                                <div class="skills__progressbar">
+                                    <div class="skills__percentage"></div>
+                                </div>
+
+                                <article class="skills__title">
+                                    <h4 class="skills__text">PHP</h4>
+                                    <span class="skills__number">80%</span>
+                                </article>
+                                <div class="skills__progressbar">
+                                    <div class="skills__percentage"></div>
+                                </div>
+
+                                <article class="skills__title">
+                                    <h4 class="skills__text">Laravel</h4>
+                                    <span class="skills__number">85%</span>
+                                </article>
+                                <div class="skills__progressbar">
+                                    <div class="skills__percentage"></div>
+                                </div>
+                            </div>
+
+                            <header class="resume__subheader">
+                                <h2 class="resume__subtitle">
+                                    Aras de conocimientos
+                                </h2>
+                            </header>
+
+                            <div class="resume__knowledges">
+                                <ul class="knowledges__list">
+                                    <li class="knowledges__option">
+                                        Programacion
+                                    </li>
+                                    <li class="knowledges__option">
+                                        Desarrollo Web
+                                    </li>
+                                    <li class="knowledges__option">
+                                        Diseño Web
+                                    </li>
+                                    <li class="knowledges__option">FrontEnd</li>
+                                    <li class="knowledges__option">backend</li>
+                                    <li class="knowledges__option">
+                                        FullStack
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="resume__certificates">
+                                <header class="resume__subheader">
+                                    <h2 class="resume__subtitle">
+                                        Certificados
+                                    </h2>
+                                </header>
+
+                                <section class="certificates__container">
+                                    <article class="certificates__certificate">
+                                        <div class="certificate__logo">
+                                            <img
+                                                src="assets/img/certificado-1.png"
+                                                class="certificate__image"
+                                            />
+                                        </div>
+                                        <div class="certificate__content">
+                                            <h4 class="certificate__title">
+                                                Master en SQL
+                                            </h4>
+                                            <span class="certificate__id"
+                                                >ID Verificacion: 123a</span
+                                            >
+                                            <span class="certificate__date"
+                                                >10 Junio 2023</span
+                                            >
+                                        </div>
+                                    </article>
+
+                                    <article class="certificates__certificate">
+                                        <div class="certificate__logo">
+                                            <img
+                                                src="assets/img/certificado-1.png"
+                                                class="certificate__image"
+                                            />
+                                        </div>
+                                        <div class="certificate__content">
+                                            <h4 class="certificate__title">
+                                                Master en PHP
+                                            </h4>
+                                            <span class="certificate__id"
+                                                >ID Verificacion: 123a</span
+                                            >
+                                            <span class="certificate__date"
+                                                >10 Agosto 2023</span
+                                            >
+                                        </div>
+                                    </article>
+                                </section>
+                            </div>
+                        </section>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </body>
+</html>
