@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Estilos -->
+        <link
+            rel="stylesheet"
+            href="./assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css"
+            type="text/css"
+        />
+        <link
+            rel="stylesheet"
+            href="./assets/fonts/poppins/poppins.css"
+            type="text/css"
+        />
+        <link rel="stylesheet" href="./assets/css/reset.css" type="text/css" />
+        <link rel="stylesheet" href="./assets/css/scroll.css" type="text/css" />
+        <link rel="stylesheet" href="./assets/css/styles.css" type="text/css" />
+        <title>Portfolio - Franklin Macias</title>
+    </head>
+    <body>
+        <!-- Layout Principal -->
+        <div class="layout">
+            <!-- Barra Lateral (Info del Usuario) -->
+            <aside class="layout__aside">
+                <section class="aside__user-info">
+                    <!-- Informacion General -->
+                    <div class="user-info__general">
+                        <div class="user-info__container-image">
+                            <img
+                                src="assets/img/default-user.jpg"
+                                alt="perfil de usuario"
+                                class="user-info__image"
+                            />
+                        </div>
+                        <h2 class="user-info__name">Franklin Macias</h2>
+                        <h4 class="user-info__job">Desarrollador web</h4>
+                    </div>
+
+                    <!-- Menu de navegacion -->
+                    <nav class="layout__menu">
+                        <ul class="menu__list">
+                            <li class="menu__option">
+                                <a href="index.html" class="menu__link">
+                                    <i class="menu__icon fa-solid fa-house"></i>
+                                    <span class="menu__overlay">Home</span>
+                                </a>
+                            </li>
+                            <li class="menu__option">
+                                <a href="sobre-mi.html" class="menu__link">
+                                    <i class="menu__icon fa-solid fa-user"></i>
+                                    <span class="menu__overlay">Sobre mi</span>
+                                </a>
+                            </li>
+                            <li class="menu__option">
+                                <a href="curriculum.html" class="menu__link">
+                                    <i
+                                        class="menu__icon fa-solid fa-graduation-cap"
+                                    ></i>
+                                    <span class="menu__overlay"
+                                        >Curriculum</span
+                                    >
+                                </a>
+                            </li>
+                            <li class="menu__option">
+                                <a href="portafolio.html" class="menu__link">
+                                    <i
+                                        class="menu__icon fa-solid fa-briefcase"
+                                    ></i>
+                                    <span class="menu__overlay"
+                                        >Portafolio</span
+                                    >
+                                </a>
+                            </li>
+                            <li class="menu__option">
+                                <a href="blog.html" class="menu__link">
+                                    <i class="menu__icon fa-solid fa-book"></i>
+                                    <span class="menu__overlay">Blog</span>
+                                </a>
+                            </li>
+                            <li class="menu__option">
+                                <a
+                                    href="contacto.html"
+                                    class="menu__link menu__link--active"
+                                >
+                                    <i
+                                        class="menu__icon fa-solid fa-envelope"
+                                    ></i>
+                                    <span class="menu__overlay">Contacto</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <!-- Links a redes sociales -->
+                    <div class="user-info__links">
+                        <ul class="links__social">
+                            <li class="social__option">
+                                <a href="#" class="social__link">
+                                    <i
+                                        class="social__icon fa-brands fa-youtube"
+                                    ></i>
+                                </a>
+                            </li>
+                            <li class="social__option">
+                                <a href="#" class="social__link">
+                                    <i
+                                        class="social__icon fa-brands fa-linkedin"
+                                    ></i>
+                                </a>
+                            </li>
+                            <li class="social__option">
+                                <a href="#" class="social__link">
+                                    <i
+                                        class="social__icon fa-brands fa-instagram"
+                                    ></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Boton Curriculum -->
+                    <div class="user-info__buttons">
+                        <a href="#" class="user-info__btn">Descargar CV</a>
+                    </div>
+
+                    <!-- Pie de Pgina -->
+                    <footer class="user-info__footer">
+                        &copy; 2023 Franklin Macias.
+                    </footer>
+                </section>
+            </aside>
+
+            <!-- Contenido Principal -->
+            <main class="layout__content">
+                <section class="content__page content__contact">
+                    <!-- Contenido que cambia en cada pagina -->
+                    <header class="contact__header">
+                        <h1 class="contact__title">Contacto</h1>
+                    </header>
+
+                    <div class="contact__container">
+                        <section class="contact__info">
+                            <div class="contact__data">
+                                <i
+                                    class="contact__icon fa-solid fa-location-dot"
+                                ></i>
+                                <h2 class="contact__subtitle">Italia</h2>
+                            </div>
+
+                            <div class="contact__data">
+                                <i class="contact__icon fa-solid fa-phone"></i>
+                                <h2 class="contact__subtitle">123 123 123</h2>
+                            </div>
+
+                            <div class="contact__data">
+                                <i
+                                    class="contact__icon fa-solid fa-envelope"
+                                ></i>
+                                <h2 class="contact__subtitle">Email</h2>
+                            </div>
+
+                            <div class="contact__data">
+                                <i
+                                    class="contact__icon fa-solid fa-circle-check"
+                                ></i>
+                                <h2 class="contact__subtitle">
+                                    Desarrollador web
+                                </h2>
+                            </div>
+                        </section>
+
+                        <section class="contact__form-box">
+                            <div class="contact__map">
+                                <!-- <iframe
+                                    frameborder="0"
+                                    scrolling="no"
+                                    marginheight="0"
+                                    maringwidth="0"
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.1228885023597!2d12.48965597655033!3d41.890214164654786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61b6532013ad%3A0x28f1c82e908503c4!2sColosseum!5e0!3m2!1sen!2sit!4v1690232111999!5m2!1sen!2sit"
+                                    loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"
+                                ></iframe> -->
+                            </div>
+                            <header class="contact__form-header">
+                                <h3 class="contact__subtitle">
+                                    Como puedo
+                                    <span class="subtitle__color"
+                                        >ayudarte?</span
+                                    >
+                                </h3>
+                            </header>
+
+                            <form class="contact__form">
+                                <div class="form__container">
+                                    <section class="form__left">
+                                        <div class="form__group">
+                                            <input
+                                                type="text"
+                                                class="form__input"
+                                                name="name"
+                                                id="name"
+                                                required
+                                                placeholder="Nombre"
+                                            />
+                                            <label
+                                                for="name"
+                                                class="form__label"
+                                                >Nombre</label
+                                            >
+                                        </div>
+
+                                        <div class="form__group">
+                                            <input
+                                                type="email"
+                                                class="form__input"
+                                                name="email"
+                                                id="email"
+                                                required
+                                                placeholder="Email"
+                                            />
+                                            <label
+                                                for="email"
+                                                class="form__label"
+                                                >Email</label
+                                            >
+                                        </div>
+
+                                        <div class="form__group">
+                                            <input
+                                                type="text"
+                                                class="form__input"
+                                                name="subject"
+                                                id="subject"
+                                                required
+                                                placeholder="Subject"
+                                            />
+                                            <label
+                                                for="subject"
+                                                class="form__label"
+                                                >Asunto</label
+                                            >
+                                        </div>
+                                    </section>
+                                    <section class="form__right">
+                                        <div class="form__group">
+                                            <textarea
+                                                class="form__input--textarea"
+                                                name="message"
+                                                id="message"
+                                                required
+                                                placeholder="Mensaje"
+                                            ></textarea>
+                                            <label
+                                                for="message"
+                                                class="form__label"
+                                                >Mensaje</label
+                                            >
+                                        </div>
+                                    </section>
+
+                                    <input
+                                        type="submit"
+                                        value="Enviar Mensaje"
+                                        class="form__button"
+                                    />
+                                </div>
+                            </form>
+                        </section>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </body>
+</html>

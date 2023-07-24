@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Estilos -->
+        <link
+            rel="stylesheet"
+            href="./assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css"
+            type="text/css"
+        />
+        <link
+            rel="stylesheet"
+            href="./assets/fonts/poppins/poppins.css"
+            type="text/css"
+        />
+        <link rel="stylesheet" href="./assets/css/reset.css" type="text/css" />
+        <link rel="stylesheet" href="./assets/css/scroll.css" type="text/css" />
+        <link rel="stylesheet" href="./assets/css/styles.css" type="text/css" />
+        <title>Portfolio - Franklin Macias</title>
+    </head>
+    <body>
+        <!-- Layout Principal -->
+        <div class="layout">
+            <!-- Barra Lateral (Info del Usuario) -->
+            <aside class="layout__aside">
+                <section class="aside__user-info">
+                    <!-- Informacion General -->
+                    <div class="user-info__general">
+                        <div class="user-info__container-image">
+                            <img
+                                src="assets/img/default-user.jpg"
+                                alt="perfil de usuario"
+                                class="user-info__image"
+                            />
+                        </div>
+                        <h2 class="user-info__name">Franklin Macias</h2>
+                        <h4 class="user-info__job">Desarrollador web</h4>
+                    </div>
+
+                    <!-- Menu de navegacion -->
+                    <nav class="layout__menu">
+                        <ul class="menu__list">
+                            <li class="menu__option">
+                                <a href="index.html" class="menu__link">
+                                    <i class="menu__icon fa-solid fa-house"></i>
+                                    <span class="menu__overlay">Home</span>
+                                </a>
+                            </li>
+                            <li class="menu__option">
+                                <a href="sobre-mi.html" class="menu__link">
+                                    <i class="menu__icon fa-solid fa-user"></i>
+                                    <span class="menu__overlay">Sobre mi</span>
+                                </a>
+                            </li>
+                            <li class="menu__option">
+                                <a href="curriculum.html" class="menu__link">
+                                    <i
+                                        class="menu__icon fa-solid fa-graduation-cap"
+                                    ></i>
+                                    <span class="menu__overlay"
+                                        >Curriculum</span
+                                    >
+                                </a>
+                            </li>
+                            <li class="menu__option">
+                                <a href="portafolio.html" class="menu__link">
+                                    <i
+                                        class="menu__icon fa-solid fa-briefcase"
+                                    ></i>
+                                    <span class="menu__overlay"
+                                        >Portafolio</span
+                                    >
+                                </a>
+                            </li>
+                            <li class="menu__option">
+                                <a
+                                    href="blog.html"
+                                    class="menu__link menu__link--active"
+                                >
+                                    <i class="menu__icon fa-solid fa-book"></i>
+                                    <span class="menu__overlay">Blog</span>
+                                </a>
+                            </li>
+                            <li class="menu__option">
+                                <a href="contacto.html" class="menu__link">
+                                    <i
+                                        class="menu__icon fa-solid fa-envelope"
+                                    ></i>
+                                    <span class="menu__overlay">Contacto</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <!-- Links a redes sociales -->
+                    <div class="user-info__links">
+                        <ul class="links__social">
+                            <li class="social__option">
+                                <a href="#" class="social__link">
+                                    <i
+                                        class="social__icon fa-brands fa-youtube"
+                                    ></i>
+                                </a>
+                            </li>
+                            <li class="social__option">
+                                <a href="#" class="social__link">
+                                    <i
+                                        class="social__icon fa-brands fa-linkedin"
+                                    ></i>
+                                </a>
+                            </li>
+                            <li class="social__option">
+                                <a href="#" class="social__link">
+                                    <i
+                                        class="social__icon fa-brands fa-instagram"
+                                    ></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Boton Curriculum -->
+                    <div class="user-info__buttons">
+                        <a href="#" class="user-info__btn">Descargar CV</a>
+                    </div>
+
+                    <!-- Pie de Pgina -->
+                    <footer class="user-info__footer">
+                        &copy; 2023 Franklin Macias.
+                    </footer>
+                </section>
+            </aside>
+
+            <!-- Contenido Principal -->
+            <main class="layout__content">
+                <section class="content__page content__blog">
+                    <!-- Contenido que cambia en cada pagina -->
+                    <header class="blog__header">
+                        <h1 class="blog__title">Blog</h1>
+                    </header>
+
+                    <section class="blog__articles">
+                        <article class="articles__article">
+                            <div class="article__top">
+                                <div class="article__category">Desarrollo</div>
+                                <a href="#" class="article__image-link">
+                                    <div class="article__mask">
+                                        <img
+                                            src="./assets/img/articulo-1.jpg"
+                                            alt="articulo uno"
+                                            class="article__image"
+                                        />
+                                        <div class="article__logo">
+                                            <i
+                                                class="article__icon fa-solid fa-book"
+                                            ></i>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="article__bottom">
+                                <time
+                                    datetime="2024-08-30"
+                                    class="article__date"
+                                    >30/08/2024</time
+                                >
+                                <a href="#" class="article__link">
+                                    <h2 class="article__title">
+                                        Como aprender a programar en 2024
+                                    </h2>
+                                </a>
+                            </div>
+                        </article>
+
+                        <article class="articles__article">
+                            <div class="article__top">
+                                <div class="article__category">Desarrollo</div>
+                                <a href="#" class="article__image-link">
+                                    <div class="article__mask">
+                                        <img
+                                            src="./assets/img/articulo-2.jpg"
+                                            alt="articulo uno"
+                                            class="article__image"
+                                        />
+                                        <div class="article__logo">
+                                            <i
+                                                class="article__icon fa-solid fa-book"
+                                            ></i>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="article__bottom">
+                                <time
+                                    datetime="2024-08-30"
+                                    class="article__date"
+                                    >30/08/2024</time
+                                >
+                                <a href="#" class="article__link">
+                                    <h2 class="article__title">
+                                        Como hacer animaciones en CSS
+                                    </h2>
+                                </a>
+                            </div>
+                        </article>
+
+                        <article class="articles__article">
+                            <div class="article__top">
+                                <div class="article__category">Desarrollo</div>
+                                <a href="#" class="article__image-link">
+                                    <div class="article__mask">
+                                        <img
+                                            src="./assets/img/articulo-3.jpg"
+                                            alt="articulo uno"
+                                            class="article__image"
+                                        />
+                                        <div class="article__logo">
+                                            <i
+                                                class="article__icon fa-solid fa-book"
+                                            ></i>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="article__bottom">
+                                <time
+                                    datetime="2024-08-30"
+                                    class="article__date"
+                                    >30/08/2024</time
+                                >
+                                <a href="#" class="article__link">
+                                    <h2 class="article__title">
+                                        Como usar el LocalStorage
+                                    </h2>
+                                </a>
+                            </div>
+                        </article>
+
+                        <article class="articles__article">
+                            <div class="article__top">
+                                <div class="article__category">Desarrollo</div>
+                                <a href="#" class="article__image-link">
+                                    <div class="article__mask">
+                                        <img
+                                            src="./assets/img/articulo-4.jpg"
+                                            alt="articulo uno"
+                                            class="article__image"
+                                        />
+                                        <div class="article__logo">
+                                            <i
+                                                class="article__icon fa-solid fa-book"
+                                            ></i>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="article__bottom">
+                                <time
+                                    datetime="2024-08-30"
+                                    class="article__date"
+                                    >30/08/2024</time
+                                >
+                                <a href="#" class="article__link">
+                                    <h2 class="article__title">
+                                        Como maquetar una web
+                                    </h2>
+                                </a>
+                            </div>
+                        </article>
+                    </section>
+                </section>
+            </main>
+        </div>
+    </body>
+</html>
