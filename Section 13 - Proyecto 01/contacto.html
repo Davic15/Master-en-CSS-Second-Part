@@ -17,7 +17,13 @@
         />
         <link rel="stylesheet" href="./assets/css/reset.css" type="text/css" />
         <link rel="stylesheet" href="./assets/css/scroll.css" type="text/css" />
+        <link rel="stylesheet" href="./assets/css/loader.css" type="text/css" />
         <link rel="stylesheet" href="./assets/css/styles.css" type="text/css" />
+        <link
+            rel="stylesheet"
+            href="./assets/css/responsive.css"
+            type="text/css"
+        />
         <title>Portfolio - Franklin Macias</title>
     </head>
     <body>
@@ -133,6 +139,12 @@
                 </section>
             </aside>
 
+            <!-- Menu Responsive -->
+            <div class="layout__menu-toggle">
+                <i class="fa-solid fa-bars menu-toggle__icon"></i>
+                <i class="fa-solid fa-xmark menu-toggle__icon"></i>
+            </div>
+
             <!-- Contenido Principal -->
             <main class="layout__content">
                 <section class="content__page content__contact">
@@ -173,23 +185,13 @@
                         </section>
 
                         <section class="contact__form-box">
-                            <div class="contact__map">
-                                <!-- <iframe
-                                    frameborder="0"
-                                    scrolling="no"
-                                    marginheight="0"
-                                    maringwidth="0"
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.1228885023597!2d12.48965597655033!3d41.890214164654786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61b6532013ad%3A0x28f1c82e908503c4!2sColosseum!5e0!3m2!1sen!2sit!4v1690232111999!5m2!1sen!2sit"
-                                    loading="lazy"
-                                    referrerpolicy="no-referrer-when-downgrade"
-                                ></iframe> -->
+                            <div class="contact__map" id="load-iframe-map">
+                                <span class="loader"></span>
                             </div>
                             <header class="contact__form-header">
-                                <h3 class="contact__subtitle">
+                                <h3 class="form-header__title">
                                     Como puedo
-                                    <span class="subtitle__color"
-                                        >ayudarte?</span
-                                    >
+                                    <span class="title__color">ayudarte?</span>
                                 </h3>
                             </header>
 
@@ -245,9 +247,11 @@
                                         </div>
                                     </section>
                                     <section class="form__right">
-                                        <div class="form__group">
+                                        <div
+                                            class="form__group form__group--textarea"
+                                        >
                                             <textarea
-                                                class="form__input--textarea"
+                                                class="form__input form__input--textarea"
                                                 name="message"
                                                 id="message"
                                                 required
@@ -260,18 +264,19 @@
                                             >
                                         </div>
                                     </section>
-
-                                    <input
-                                        type="submit"
-                                        value="Enviar Mensaje"
-                                        class="form__button"
-                                    />
                                 </div>
+                                <input
+                                    type="submit"
+                                    value="Enviar Mensaje"
+                                    class="form__button"
+                                />
                             </form>
                         </section>
                     </div>
                 </section>
             </main>
         </div>
+        <script src="./assets/js/map.js" defer></script>
+        <script src="./assets/js/menu.js" defer></script>
     </body>
 </html>
