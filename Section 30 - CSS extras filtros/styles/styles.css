@@ -1,0 +1,31 @@
+/* Filtros para imagenes en CSS */
+img {
+    /* filter: grayscale(50%); */
+    /* filter: sepia(100%); */
+    /* filter: saturate(100%); */
+    /* filter: blur(10px); */
+    /* filter: opacity(50%); */
+    /* filter: contrast(50%); */
+    /* filter: brightness(20%); */
+    /* filter: invert(100%); */
+    /* filter: drop-shadow(10px 10px 10px black); */
+    filter: hue-rotate(200deg);
+    transition: all 400ms ease-in-out;
+}
+
+img:hover {
+    /* filter: blur(0px); */
+    filter: hue-rotate(100deg);
+}
+
+.caja {
+    filter: grayscale(100%);
+    border: 1px solid blue;
+    background-color: aqua;
+    color: blue;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+}

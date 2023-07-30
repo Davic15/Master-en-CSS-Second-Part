@@ -1,0 +1,77 @@
+/* calc, min, max, clamp*/
+/* .caja {
+    width: calc(300px * 2);
+    height: calc(300px * 2);
+    border: 2px solid red;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: calc(300px * 2);
+} */
+
+/* .caja {
+    width: min(300px, 200px, 20%);
+    height: max(300px, 100px, 200px, 50px);
+    border: 2px solid red;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: calc(300px * 2);
+} */
+
+.caja {
+    /* Minimo, normal, maximo*/
+    width: clamp(200px, 80%, 500px);
+    height: max(300px, 100px, 200px, 50px);
+    border: 2px solid red;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: calc(300px * 2);
+}
+
+/* clip-path */
+/* clip-path: circle(50%); */
+/* clip-path: polygon(60% 0, 100% 50%, 50% 100%, 0 60%, 50% 50%); */
+/* img {
+    width: 250px;
+    height: 250px;
+    clip-path: ellipse(100px 120px at 30% 20%);
+} */
+
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 900px;
+    box-shadow: 0px 0px 10px gray;
+
+    /* transform: skewY(10deg); */
+    transform: scale(1.5) translate(200px) rotate(100deg);
+}
+
+.caja {
+    width: 80%;
+    height: calc(300px * 2);
+    border: 2px solid red;
+    /* background: repeating-linear-gradient(to right, orange, red); */
+    background: radial-gradient(circle at left, orange, red, blue);
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: calc(300px * 2);
+}
+
+ul {
+    /* list-style-image: url('../image/css-3.png'); */
+    list-style-type: disclosure-closed;
+    list-style-position: inside;
+}
+
+li::marker {
+    color: orangered;
+    font-size: 20px;
+}
