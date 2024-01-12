@@ -7,6 +7,6 @@ document.addEventListener('DOMContentLoaded', () => {
             navbar.classList.add('menu__navbar--fixed');
         } else {
             navbar.classList.remove('menu__navbar--fixed')
-        };
+        }
     })
 })
