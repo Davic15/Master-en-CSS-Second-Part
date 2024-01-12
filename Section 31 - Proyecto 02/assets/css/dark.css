@@ -28,7 +28,8 @@ body {
     background-color: var(--color-secondary);
 }
 
-.nav__submenu {
+.nav__submenu,
+.menu-mobile {
     background-color: var(--color-banner);
 }
 
@@ -97,4 +98,15 @@ body {
 
 .flinks__title:hover {
     color: var(--color-hover-dark);
+}
+
+.mobile-btn__wrap {
+    background-color: var(--color-secondary);
+
+}
+
+.mobile-btn__line {
+    background-color: var(--color-banner);
+
+
 }

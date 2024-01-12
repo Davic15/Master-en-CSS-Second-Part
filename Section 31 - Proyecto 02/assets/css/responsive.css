@@ -465,6 +465,19 @@
         margin-right: 0;
         margin-bottom: 8rem;
     }
+
+    .footer__widget--50 {
+        flex-basis: 33%;
+    }
+
+    .footer__widget--25 {
+        flex-basis: 33%;
+    }
+
+    .projects__categories {
+        flex-direction: column;
+        gap: 0;
+    }
 }
 
 @media (max-width: 640px) {
@@ -509,9 +522,15 @@
         gap: 4rem;
     }
 
-    .footer__widget--50 {
-        flex-basis: auto;
+    .fleft__group {
+        width: 100%;
+        border-radius: 20px;
+        height: 7.2rem;
     }
 
+    .fleft__btn {
+        height: 5rem;
+        padding: 1.4rem 1rem;
 
+    }
 }
