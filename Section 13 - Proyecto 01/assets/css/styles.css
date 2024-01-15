@@ -30,7 +30,7 @@ body {
     font-family: 'Poppins', Helvetica, sans-serif;
     font-size: 1.5rem;
     background-color: var(--color-background);
-    color: var(--colot-text);
+    color: var(--color-text);
     overflow: hidden;
 }
 
@@ -895,7 +895,7 @@ body {
 }
 
 .certificates__certificate {
-    flex-basis: cal(50% - 1.5rem);
+    flex-basis: calc(50% - 1.5rem);
     border: 2px solid var(--color-border-reviews);
     border-radius: 0.8rem;
     display: flex;
